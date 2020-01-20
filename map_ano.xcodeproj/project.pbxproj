@@ -11,10 +11,13 @@
 		9B4064C423D612A800C5C39D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4064C323D612A800C5C39D /* SceneDelegate.swift */; };
 		9B4064C623D612A800C5C39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4064C523D612A800C5C39D /* ViewController.swift */; };
 		9B4064C923D612A800C5C39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4064C723D612A800C5C39D /* Main.storyboard */; };
-		9B4064CC23D612A800C5C39D /* map_ano.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B4064CA23D612A800C5C39D /* map_ano.xcdatamodeld */; };
 		9B4064CE23D612A900C5C39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4064CD23D612A900C5C39D /* Assets.xcassets */; };
 		9B4064D123D612A900C5C39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4064CF23D612A900C5C39D /* LaunchScreen.storyboard */; };
 		9B4064D923D6136800C5C39D /* nextVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4064D823D6136800C5C39D /* nextVc.swift */; };
+		9BD0709E23D631580011E633 /* coreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0709D23D631580011E633 /* coreDataStack.swift */; };
+		9BD070A123D631A00011E633 /* maploc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0709F23D631A00011E633 /* maploc.xcdatamodeld */; };
+		9BD070A423D636930011E633 /* Mapdetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD070A223D636930011E633 /* Mapdetails+CoreDataClass.swift */; };
+		9BD070A523D636930011E633 /* Mapdetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD070A323D636930011E633 /* Mapdetails+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +26,14 @@
 		9B4064C323D612A800C5C39D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B4064C523D612A800C5C39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B4064C823D612A800C5C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B4064CB23D612A800C5C39D /* map_ano.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = map_ano.xcdatamodel; sourceTree = "<group>"; };
 		9B4064CD23D612A900C5C39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B4064D023D612A900C5C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B4064D223D612A900C5C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B4064D823D6136800C5C39D /* nextVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextVc.swift; sourceTree = "<group>"; };
+		9BD0709D23D631580011E633 /* coreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = coreDataStack.swift; path = ../../cdcrud/Crud/coreDataStack.swift; sourceTree = "<group>"; };
+		9BD070A023D631A00011E633 /* maploc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = maploc.xcdatamodel; sourceTree = "<group>"; };
+		9BD070A223D636930011E633 /* Mapdetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mapdetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9BD070A323D636930011E633 /* Mapdetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mapdetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 		9B4064C023D612A800C5C39D /* map_ano */ = {
 			isa = PBXGroup;
 			children = (
+				9BD070A223D636930011E633 /* Mapdetails+CoreDataClass.swift */,
+				9BD070A323D636930011E633 /* Mapdetails+CoreDataProperties.swift */,
 				9B4064C123D612A800C5C39D /* AppDelegate.swift */,
 				9B4064C323D612A800C5C39D /* SceneDelegate.swift */,
 				9B4064C523D612A800C5C39D /* ViewController.swift */,
@@ -67,8 +75,9 @@
 				9B4064CD23D612A900C5C39D /* Assets.xcassets */,
 				9B4064CF23D612A900C5C39D /* LaunchScreen.storyboard */,
 				9B4064D223D612A900C5C39D /* Info.plist */,
-				9B4064CA23D612A800C5C39D /* map_ano.xcdatamodeld */,
+				9BD0709D23D631580011E633 /* coreDataStack.swift */,
 				9B4064D823D6136800C5C39D /* nextVc.swift */,
+				9BD0709F23D631A00011E633 /* maploc.xcdatamodeld */,
 			);
 			path = map_ano;
 			sourceTree = "<group>";
@@ -144,11 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD070A423D636930011E633 /* Mapdetails+CoreDataClass.swift in Sources */,
 				9B4064C623D612A800C5C39D /* ViewController.swift in Sources */,
 				9B4064C223D612A800C5C39D /* AppDelegate.swift in Sources */,
 				9B4064C423D612A800C5C39D /* SceneDelegate.swift in Sources */,
 				9B4064D923D6136800C5C39D /* nextVc.swift in Sources */,
-				9B4064CC23D612A800C5C39D /* map_ano.xcdatamodeld in Sources */,
+				9BD070A523D636930011E633 /* Mapdetails+CoreDataProperties.swift in Sources */,
+				9BD070A123D631A00011E633 /* maploc.xcdatamodeld in Sources */,
+				9BD0709E23D631580011E633 /* coreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +358,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9B4064CA23D612A800C5C39D /* map_ano.xcdatamodeld */ = {
+		9BD0709F23D631A00011E633 /* maploc.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9B4064CB23D612A800C5C39D /* map_ano.xcdatamodel */,
+				9BD070A023D631A00011E633 /* maploc.xcdatamodel */,
 			);
-			currentVersion = 9B4064CB23D612A800C5C39D /* map_ano.xcdatamodel */;
-			path = map_ano.xcdatamodeld;
+			currentVersion = 9BD070A023D631A00011E633 /* maploc.xcdatamodel */;
+			path = maploc.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
