@@ -39,8 +39,8 @@ class nextVc: UIViewController {
         
         let stitle = titl.text!
         let ssubtitle = subtitl.text!
-        let slong = Double(long.text!) ?? 0.0
-        let slat = Double(lat.text!) ?? 00
+        let slong = Double(long.text!) ??  43.7855184
+        let slat = Double(lat.text!) ??  -79.3719253
         
         CmapD.lat = slat
         CmapD.long = slong
@@ -51,11 +51,13 @@ class nextVc: UIViewController {
         
                       
                
-                    
-        
+    
+        navigationController?.popToRootViewController(animated: true)
         
     }
     
+    
+  
     
 
 }
