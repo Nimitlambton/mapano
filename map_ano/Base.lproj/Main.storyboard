@@ -50,7 +50,7 @@
         <!--Next Vc-->
         <scene sceneID="j0O-Q8-IKN">
             <objects>
-                <viewController id="tjr-46-957" customClass="nextVc" customModule="map_ano" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="jump" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tjr-46-957" customClass="nextVc" customModule="map_ano" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L5j-8L-pgS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -18,7 +18,11 @@ class ViewController: UIViewController {
 
     static var managedContext: NSManagedObjectContext!
     
+    var selectedPinView: MKAnnotation!
+  
+    var refreshControl = UIRefreshControl()
     var maplist = [Mapdetails]()
+    
     
     let annotation = MKPointAnnotation()
     
@@ -125,6 +129,27 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : CLLocationManagerDelegate , MKMapViewDelegate{
+    
+ 
+    
+    
+       func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+         
+        //let annotation = view.annotation
+        //selectedPinView = annotation
+
+        
+        
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "jump") as? nextVc
+          
+            //  vc?.save = false
+            // vc?.oldMapD = selectedPinView as! Mapdetails
+             
+        
+        self.navigationController?.pushViewController(vc!, animated: true)
+        
+    
+    }
     
     
 }

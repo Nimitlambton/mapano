@@ -13,7 +13,7 @@ class nextVc: UIViewController {
     
     var mapD: Mapdetails?
   
-    
+    var oldMapD : Mapdetails?
    
     
     @IBOutlet weak var titl: UITextField!
